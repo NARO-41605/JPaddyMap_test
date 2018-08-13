@@ -16,13 +16,13 @@
 <div id="map"></div>
 <script>
 
-var JPaddy=L.tileLayer('http://wata909.github.io/JPaddy_test/tile/{z}/{x}/{y}.png',
+var JPaddy=L.tileLayer('https://wata909.github.io/JPaddyMap_test/tile/{z}/{x}/{y}.png',
  {
-  attribution: "<a href='http://habs.dc.affrc.go.jp/' target='_blank'>NIAES</a>: <a href='https://creativecommons.org/licenses/by/4.0/jp/'  target='_blank'>CC BY 4.0</a>"
+  attribution: "<a href='https://www.naro.affrc.go.jp/niaes/index.html' target='_blank'>NIAES</a>: <a href='https://creativecommons.org/licenses/by/4.0/jp/'  target='_blank'>CC BY 4.0</a>"
 }),
-gsi_tile= L.tileLayer('http://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', 
+gsi_tile= L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', 
               {
-              attribution: "<a href='http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html' target='_blank'>地理院タイル</a>"
+              attribution: "<a href='https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html' target='_blank'>地理院タイル</a>"
               });
 
 var map = L.map('map', 
